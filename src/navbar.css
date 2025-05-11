@@ -1,0 +1,33 @@
+* {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff257;
+    padding: 16px 24px;
+    border-bottom: 2px solid #e0e0e0;
+  }
+  
+  .navbar-left {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    font-size: 18px;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
