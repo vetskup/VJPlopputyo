@@ -32,7 +32,6 @@ function Courses () {
     return (
             <div>
                 <Navbar />
-
                 <div className="courses-list">
                     <h2>Valitse sinua kiinnostavat kurssit</h2>
                     {Object.entries(coursesByCategory).map(([category, coursesInCategory]) => (
@@ -51,7 +50,6 @@ function Courses () {
                         </div>
                     ))}
 
-                    {selectedCourseIds.size > 0 && (
                     <button 
                         onClick={handleCalculateSuitability} 
                         style={{ 
@@ -67,7 +65,7 @@ function Courses () {
                     >
                         Laske sopivuus ohjelmiin
                     </button>
-                    )}
+                    
                 </div>
             </div>  
         )

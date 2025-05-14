@@ -1,4 +1,4 @@
-import '/src/coursecard.css';
+import '../styles/coursecard.css';
 
 export default function CourseCard({ id, title, description, isSelected, onToggleSelection }) {
   return (
