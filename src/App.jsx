@@ -6,7 +6,7 @@ import Courses from './pages/courses'
 import Programs from './pages/programs'
 import Results from './pages/results';   // Import the new Results page
 
-import './App.css'
+import './styles/App.css'
 
 function App() {
 
