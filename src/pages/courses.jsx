@@ -1,41 +1,76 @@
+import { useState } from "react";
+import { useNavigate } from "react-router-dom"; // navigaatio
 import Navbar from "../components/navbar"
-
 import CourseCard from "../components/CourseCard"
+import { getCoursesByCategory, courses } from "../data/courseData.js"; 
+
 
 
 function Courses () {
-  return (
-        <>
-            <Navbar />
+    const [selectedCourseIds, setSelectedCourseIds] = useState(new Set());
+    const navigate = useNavigate();
 
-            <div className="courses-list">
-                <h2>Valitse sinua kiinnostavat kurssit</h2>
+    const handleToggleCourse = (courseId) => {
+        setSelectedCourseIds(prevSelectedIds => {
+            const newSelectedIds = new Set(prevSelectedIds);
+            if (newSelectedIds.has(courseId)) {
+            newSelectedIds.delete(courseId);
+            } else {
+            newSelectedIds.add(courseId);
+            }
+            return newSelectedIds;
+        });
+        };
 
-                <h3>Tuotantotalous</h3>
-                <CourseCard
-                    title="Tuotantotalous 1"
-                    description="Kurssilla opetellaan, miten tuotantojärjestelmät- ja prosessit toimivat..."
-                />
+        const coursesByCategory = getCoursesByCategory();
 
-                <CourseCard
-                    title="Operaatioiden johtaminen"
-                    description="sa dlkfj aldfkjalsdfk alsdkfj flaksjf lakjfd lakjs dflaksj lakjfd..."
-                />
+        const handleCalculateSuitability = () => {
+        // Navigoi tulossivulle ja lähetä valitut kurssit
+        navigate('/results', { state: { selectedCourseIds: Array.from(selectedCourseIds) } });
+        };
 
-                <h3>Ohjelmointi</h3>
+    return (
+            <div>
+                <Navbar />
 
-                <CourseCard
-                    title="Ohjelmointi 01"
-                    description="Tämä kurssi lähtee ohjelmoinnin alkeista ja siinä pääset itse..."
-                />
+                <div className="courses-list">
+                    <h2>Valitse sinua kiinnostavat kurssit</h2>
+                    {Object.entries(coursesByCategory).map(([category, coursesInCategory]) => (
+                        <div key={category} style={{ width: '100%', marginBottom: '20px' }}>
+                            <h3>{category}</h3>
+                            {coursesInCategory.map(course => (
+                            <CourseCard                
+                                key={course.id}
+                                id={course.id}
+                                title={course.title}
+                                description={course.description}
+                                isSelected={selectedCourseIds.has(course.id)}
+                                onToggleSelection={handleToggleCourse}
+                              />
+                            ))}
+                        </div>
+                    ))}
 
-                <CourseCard
-                    title="Verkkojulkaisun perusteet"
-                    description="Pääset tekemään itse omat verkkosivusi"
-                />
-            </div>
-        </>  
-    )
+                    {selectedCourseIds.size > 0 && (
+                    <button 
+                        onClick={handleCalculateSuitability} 
+                        style={{ 
+                        marginTop: '20px', 
+                        padding: '12px 25px', 
+                        fontSize: '16px', 
+                        cursor: 'pointer',
+                        backgroundColor: '#007bff',
+                        color: 'white',
+                        border: 'none',
+                        borderRadius: '5px'
+                        }}
+                    >
+                        Laske sopivuus ohjelmiin
+                    </button>
+                    )}
+                </div>
+            </div>  
+        )
     }
 
 export default Courses

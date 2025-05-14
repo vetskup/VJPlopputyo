@@ -14,7 +14,7 @@ export const studyProgramList = [
       title: 'Tuotantotalous 1',
       description: 'Kurssilla opetellaan, miten tuotantojärjestelmät- ja prosessit toimivat...',
       category: 'Tuotantotalous',
-      relevantPrograms: ['tuotantotalous'] // IDs from studyProgramList
+      relevantPrograms: ['tuotantotalous']
     },
     {
       id: 'tuot2',
