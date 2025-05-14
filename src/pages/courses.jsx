@@ -33,8 +33,6 @@ function Courses () {
                     title="Verkkojulkaisun perusteet"
                     description="Pääset tekemään itse omat verkkosivusi"
                 />
-
-            
             </div>
         </>  
     )
