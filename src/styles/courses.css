@@ -28,4 +28,7 @@
     background-color: #0056b3;
 }
 
-
+.courses-category {
+    width: 100%; 
+    margin-bottom: 20px;
+}
