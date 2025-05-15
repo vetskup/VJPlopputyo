@@ -7,7 +7,6 @@ import '../styles/courses.css';
 
 
 
-
 function Courses () {
     const [selectedCourseIds, setSelectedCourseIds] = useState(new Set());
     const navigate = useNavigate();
@@ -37,7 +36,7 @@ function Courses () {
                 <div className="courses-list">
                     <h2>Valitse sinua kiinnostavat kurssit</h2>
                     {Object.entries(coursesByCategory).map(([category, coursesInCategory]) => (
-                        <div key={category} style={{ width: '100%', marginBottom: '20px' }}>
+                        <div className="courses-category" key={category}>
                             <h3>{category}</h3>
                             {coursesInCategory.map(course => (
                             <CourseCard                
@@ -54,19 +53,6 @@ function Courses () {
 
                     <button 
                         onClick={handleCalculateSuitability} 
-                        style={{ 
-                        marginTop: '20px', 
-                        padding: '12px 25px', 
-                        fontSize: '16px', 
-                        cursor: 'pointer',
-                        backgroundColor: '#007bff',
-                        color: 'white',
-                        border: 'none',
-                        borderRadius: '5px',
-                        marginLeft: 'auto',
-                        marginRight: 'auto',
-                        marginBottom: '30px'
-                        }}
                     >
                         Laske sopivuus ohjelmiin
                     </button>

@@ -1,45 +1,45 @@
 export const studyProgramList = [
     { id: 'teknillinenPsykologia', 
       name: 'Teknillinen psykologia', 
-      description: "description",
-      lisätietoa: "lisätietoa",
-      kaikkiKurssit: "kaikkiKurssit",
-      opintopolku: "opintopolku"
+      description: "Teknillisen psykologian opinnot yhdistävät ainutlaatuisella tavalla ihmistieteitä ja tekniikkaa, keskittyen siihen, miten ihminen toimii vuorovaikutuksessa teknologian, järjestelmien ja ympäristön kanssa. Opinnoissa korostuu poikkitieteisyys ja käytännön sovellettavuus, ja opiskelijalle avautuu mahdollisuus rakentaa täysin omanlainen polku painottuen esimerkiksi tietotekniikkaan, neurotieteisiin tai laiteiden suunnitteluun.",
+      lisätietoa: "https://www.aalto.fi/fi/koulutustarjonta/teknillinen-psykologia-tekniikan-kandidaatti-ja-diplomi-insinoori",
+      kaikkiKurssit: "https://www.aalto.fi/fi/ohjelmat/teknistieteellinen-kandidaattiohjelma/opetussuunnitelma-2024-2026#24-teknillinen-psykologia",
+      opintopolku: "https://opintopolku.fi/konfo/fi/hakukohde/1.2.246.562.20.00000000000000056128/valintaperuste"
     },  
     { id: 'informaatioverkostot',
       name: 'Informaatioverkostot',
-      description: "description",
-      lisätietoa: "lisätietoa",
-      kaikkiKurssit: "kaikkiKurssit",
-      opintopolku: "opintopolku"
+      description: "Informaatioverkostojen monitieteiset opinnot yhdistävät kiehtovalla tavalla tekniikkaa, liiketoimintaa, muotoilua ja yhteiskunnallista ajattelua. Opinnot ovat myös erittäin joustavat, koska uskomme että jokaisen pitää löytää se oma polku laaja-alaisten opintojen keskeltä, ja samalla pitää useita ovia auki tulevaisuuden kannalta. Siksi infolla on mahdollista esimerkiksi valita sivuaine ja muita opintoja vaikkapa aivan toisesta yliopistosta.",
+      lisätietoa: "https://www.aalto.fi/fi/koulutustarjonta/informaatioverkostot-tekniikan-kandidaatti-ja-diplomi-insinoori",
+      kaikkiKurssit: "https://www.aalto.fi/fi/ohjelmat/teknistieteellinen-kandidaattiohjelma/opetussuunnitelma-2024-2026#2-informaatioverkostot",
+      opintopolku: "https://opintopolku.fi/konfo/fi/hakukohde/1.2.246.562.20.00000000000000056125/valintaperuste"
     },
     { id: 'tuotantotalous',
       name: 'Tuotantotalous',
-      description: "description",
-      lisätietoa: "lisätietoa",
-      kaikkiKurssit: "kaikkiKurssit",
-      opintopolku: "opintopolku"
+      description: "Tuotantotalous on yritysten ja muiden organisaatioiden kokonaisvaltaista kehittämistä. Tieteenala käsittelee organisaatioita teknis-taloudellisina sekä sosiaalisina järjestelminä. Sen tavoitteena on tehokkuus, taloudellisuus, kestävyys ja hyvinvointi. Tuotantotalouden hakukohteen opiskelijat oppivat ratkomaan ongelmia ja luomaan yrityksille arvoa ottaen huomioon kaikki yritystoiminnan kannalta olennaiset osat: teknologian, organisoinnin, asiakkaat, palvelut, tuotteet ja tuotannon.",
+      lisätietoa: "https://www.aalto.fi/fi/koulutustarjonta/tuotantotalous-tekniikan-kandidaatti-ja-diplomi-insinoori",
+      kaikkiKurssit: "https://www.aalto.fi/fi/ohjelmat/teknistieteellinen-kandidaattiohjelma/opetussuunnitelma-2024-2026#38-tuotantotalous",
+      opintopolku: "https://opintopolku.fi/konfo/fi/hakukohde/1.2.246.562.20.00000000000000056131/valintaperuste"
     },
     { id: 'tietotekniikka',
       name: 'Tietotekniikka',
-      description: "description",
-      lisätietoa: "lisätietoa",
-      kaikkiKurssit: "kaikkiKurssit",
-      opintopolku: "opintopolku"
+      description: "Tietotekniikan opinnoissa opit ohjelmoimaan, ratkomaan ongelmia ja kehittämään teknologiaa, joka näkyy arjessa esimerkiksi sovelluksina, peleinä ja tekoälynä. Opinnot sisältävät muun muassa matematiikkaa, fysiikkaa, ohjelmointia ja projekteja, joissa tehdään oikeita ohjelmistoja tiimeissä. Voit vaikuttaa, millaiseksi tutkintosi muodostuu, ja suuntautua esimerkiksi tekoälyyn, kyberturvaan tai pelikehitykseen. ",
+      lisätietoa: "https://www.aalto.fi/fi/koulutustarjonta/tietotekniikka-tekniikan-kandidaatti-ja-diplomi-insinoori",
+      kaikkiKurssit: "https://www.aalto.fi/fi/ohjelmat/teknistieteellinen-kandidaattiohjelma/opetussuunnitelma-2024-2026#31-tietotekniikka",
+      opintopolku: "https://opintopolku.fi/konfo/fi/hakukohde/1.2.246.562.20.00000000000000056129/valintaperuste"
     },
     { id: 'matematiikkaSysteemitieteet', 
       name: 'Matematiikka ja systeemitieteet',
-      description: "description",
-      lisätietoa: "lisätietoa",
-      kaikkiKurssit: "kaikkiKurssit",
-      opintopolku: "opintopolku"
+      description: "Teknillisen fysiikan opinnoissa tutustut luonnonilmiöihin matematiikan ja fysiikan avulla – kuten siihen, miten energia, valo ja aine käyttäytyvät. Opit ymmärtämään ja mallintamaan esimerkiksi kvanttifysiikkaa, sähkömagneettisia kenttiä ja lämpöilmiöitä. Ala sopii sinulle, jos haluat ymmärtää maailmaa pintaa syvemmältä ja kenties tehdä tulevaisuudessa uraauurtavaa tutkimusta tai kehittää uutta teknologiaa. Opinnot antavat vahvan pohjan esimerkiksi tutkijaksi, tuotekehittäjäksi tai asiantuntijaksi.",
+      lisätietoa: "https://www.aalto.fi/fi/koulutustarjonta/teknillinen-fysiikka-ja-matematiikka-tekniikan-kandidaatti-ja-diplomi-insinoori",
+      kaikkiKurssit: "https://www.aalto.fi/fi/ohjelmat/teknistieteellinen-kandidaattiohjelma/opetussuunnitelma-2024-2026#10-matematiikka-ja-systeemitieteet",
+      opintopolku: "https://opintopolku.fi/konfo/fi/hakukohde/1.2.246.562.20.00000000000000056126/valintaperuste"
     },
     { id: 'teknillinenFysiikka', 
       name: 'Teknillinen fysiikka',
-      description: "description",
-      lisätietoa: "lisätietoa",
-      kaikkiKurssit: "kaikkiKurssit",
-      opintopolku: "opintopolku"
+      description: "Matematiikan ja systeemitieteiden opinnoissa opit mallintamaan, ennustamaan ja ratkaisemaan monimutkaisia ilmiöitä matemaattisin keinoin – aina liikenteen ohjauksesta tekoälyyn ja säätöjärjestelmiin asti. Voit suuntautua esimerkiksi sovellettuun matematiikkaan, optimointiin tai data-analyysiin. Ala sopii sinulle, jos nautit ongelmanratkaisusta ja haluat oppia käyttämään matikkaa konkreettisiin, yhteiskunnassa tärkeisiin asioihin.",
+      lisätietoa: "https://www.aalto.fi/fi/koulutustarjonta/teknillinen-fysiikka-ja-matematiikka-tekniikan-kandidaatti-ja-diplomi-insinoori",
+      kaikkiKurssit: "https://www.aalto.fi/fi/ohjelmat/teknistieteellinen-kandidaattiohjelma/opetussuunnitelma-2024-2026#17-teknillinen-fysiikka",
+      opintopolku: "https://opintopolku.fi/konfo/fi/hakukohde/1.2.246.562.20.00000000000000056126/valintaperuste"
     },
   ];
   

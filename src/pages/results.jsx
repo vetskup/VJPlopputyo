@@ -1,7 +1,7 @@
 import { useLocation, Link } from 'react-router-dom';
 import Navbar from '../components/navbar';
 import { courses as allCoursesData, studyProgramList } from '../data/courseData';
-import '../styles/results.css'; // We'll create this CSS file next
+import '../styles/results.css';
 
 function Results() {
   const location = useLocation();
@@ -24,7 +24,7 @@ function Results() {
         }
       });
       
-      // Laske sopivuus:: 
+      // Laske sopivuus: 
       // (tähän ohjelmaan sopivien kurssien määrä / kaikki valitut kurssit) * 100
       const score = (relevantSelectedCount / selectedCourseIds.size) * 100;
       return { ...program, score: Math.round(score), matchedCourses: relevantSelectedCount };
@@ -62,6 +62,14 @@ function Results() {
                   >
                     {/* {program.score}% sopivuusarvio barissa, jos mahtuu */}
                   </div>
+                </div>
+                <p className="program-description">
+                  {program.description}
+                </p>
+                <div className="program-links">
+                  <a href={program.lisätietoa} target="_blank" rel="noopener noreferrer">Lisätietoja</a>
+                  <a href={program.kaikkiKurssit} target="_blank" rel="noopener noreferrer">Kaikki kurssit</a>
+                  <a href={program.opintopolku} target="_blank" rel="noopener noreferrer">Opintopolku</a>
                 </div>
               </li>
             ))}
