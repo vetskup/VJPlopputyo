@@ -59,7 +59,7 @@ export const studyProgramList = [
         description: 'Ymmärrät, miten suurta määrrää tietoa hallitaan tietokannoissa.',
         category: 'Ohjelmointi',
         relevantPrograms: ['tietotekniikka', 'informaatioverkostot']
-      },
+    },
     {
       id: 'tik4',
       title: 'Tietorakenteet ja algoritmit',

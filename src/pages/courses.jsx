@@ -33,10 +33,25 @@ function Courses () {
             <div>
                 <Navbar />
                 <div className="courses-list">
-                    <h2>Valitse sinua kiinnostavat kurssit</h2>
+                    <h2
+                    style={{
+                    marginBottom: '50px',
+                    marginTop: '20px',
+                    marginLeft:'auto',
+                    marginRight:'auto'
+
+                    }}
+                    >
+                        Valitse sinua kiinnostavat kurssit</h2>
                     {Object.entries(coursesByCategory).map(([category, coursesInCategory]) => (
                         <div key={category} style={{ width: '100%', marginBottom: '20px' }}>
-                            <h3>{category}</h3>
+                            <h3
+                            style={{
+                            marginBottom: '20px',
+                            marginTop: '30px'
+
+                            }}
+                            >{category}</h3>
                             {coursesInCategory.map(course => (
                             <CourseCard                
                                 key={course.id}
@@ -60,7 +75,10 @@ function Courses () {
                         backgroundColor: '#007bff',
                         color: 'white',
                         border: 'none',
-                        borderRadius: '5px'
+                        borderRadius: '5px',
+                        marginLeft: 'auto',
+                        marginRight: 'auto',
+                        marginBottom: '30px'
                         }}
                     >
                         Laske sopivuus ohjelmiin

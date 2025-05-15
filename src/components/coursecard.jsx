@@ -6,8 +6,9 @@ export default function CourseCard({ id, title, description, isSelected, onToggl
       className={`course-card ${isSelected ? 'selected' : 'unselected'}`}
       onClick={() => onToggleSelection(id)}
     >
-      <p className="course-description">{description}</p>
       <p className="course-title">{title}</p>
+      <p className="course-description">{description}</p>
+
     </div>
   );
 }

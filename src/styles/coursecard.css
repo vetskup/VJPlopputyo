@@ -6,10 +6,10 @@
     width: 100%;
     height: 100%;
     margin-top: 20px;
-
+    
+    
     padding-left: 25vw;
     padding-right: 25vw;
- 
 
 }
 
@@ -22,9 +22,8 @@
 
     width: 100%;
 
-
     padding: 16px;
-    margin: 12px 0;
+    margin: 12px;
     cursor: pointer;
     transition: background-color 0.2s ease;
 }
@@ -39,13 +38,19 @@ background-color: black;
 color: white;
 }
 
-.course-description {
-margin-bottom: 8px;
-font-size: 14px;
-}
-
 .course-title {
 font-size: 16px;
 font-weight: 500;
 }
+
+.course-description {
+margin-bottom: 5px;
+margin-top: 10px;
+font-size: 124x;
+margin-left: 0;
+margin-right: 0;
+text-align: left
+}
+
+
   
