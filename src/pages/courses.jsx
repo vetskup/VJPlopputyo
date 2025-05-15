@@ -1,8 +1,10 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom"; // navigaatio
 import Navbar from "../components/navbar"
-import CourseCard from "../components/CourseCard"
-import { getCoursesByCategory, courses } from "../data/courseData.js"; 
+import CourseCard from "../components/coursecard"
+import { getCoursesByCategory, courses } from "../data/courseData.js";
+import '../styles/courses.css';
+
 
 
 
@@ -33,25 +35,10 @@ function Courses () {
             <div>
                 <Navbar />
                 <div className="courses-list">
-                    <h2
-                    style={{
-                    marginBottom: '50px',
-                    marginTop: '20px',
-                    marginLeft:'auto',
-                    marginRight:'auto'
-
-                    }}
-                    >
-                        Valitse sinua kiinnostavat kurssit</h2>
+                    <h2>Valitse sinua kiinnostavat kurssit</h2>
                     {Object.entries(coursesByCategory).map(([category, coursesInCategory]) => (
                         <div key={category} style={{ width: '100%', marginBottom: '20px' }}>
-                            <h3
-                            style={{
-                            marginBottom: '20px',
-                            marginTop: '30px'
-
-                            }}
-                            >{category}</h3>
+                            <h3>{category}</h3>
                             {coursesInCategory.map(course => (
                             <CourseCard                
                                 key={course.id}

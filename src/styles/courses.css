@@ -1,0 +1,31 @@
+.courses-list h2 {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.courses-list h3 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.courses-list button {
+    margin-top: 20px; 
+    padding: 12px 25px; 
+    font-size: 16px; 
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.courses-list button:hover {
+    background-color: #0056b3;
+}
+
+
