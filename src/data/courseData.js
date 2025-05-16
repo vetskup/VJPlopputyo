@@ -171,23 +171,37 @@ export const studyProgramList = [
   {
       id: 'info4',
       title: 'Human-Computer Interaction',
-      description: 'Opit, miten ihmisen ja tietokoneiden vuorovaoikutus 		toimii ja miten suunnitella käyttöliittymiä, joita on 			mukava käyttää',
+      description: 'Opit, miten ihmisen ja tietokoneiden vuorovaoikutus 		toimii ja miten suunnitella käyttöliittymiä, joita on 			mukava käyttää.',
       category: 'Ihminen ja vuorovaikutus',
       relevantPrograms: ['informaatioverkostot', 'teknillinenPsykologia', 	'tietotekniikka']
+  },
+    {
+      id: 'tepsy5',
+      title: 'Ihminen havaitsijana',
+      description: 'Kurssilla tutustut ihmisen aistijärjestelmien toimintaan ja havaintokokemuksen muodostumiseen.',
+      category: 'Ihminen ja vuorovaikutus',
+      relevantPrograms: ['teknillinenPsykologia']
+  },
+      {
+      id: 'tepsy6',
+      title: 'Biologinen psykologia',
+      description: 'Opit keskeisimmät perusteet havaitsemisen, ajattelun ja tunteiden hermostollisesta perustasta sekä aivojen anatomiasta.',
+      category: 'Ihminen ja vuorovaikutus',
+      relevantPrograms: ['teknillinenPsykologia']
   },
       
   // Matematiikka ja fysiikka
   {
       id: 'mat1',
       title: 'Differentiaali- ja integraalilaskenta 1',
-      description: 'Opit analysoimaan sarjojen ja lukujonojen supppenemista sekä soveltaa derivaatan ja integraalin laskumenetelmiä',
+      description: 'Opit analysoimaan sarjojen ja lukujonojen supppenemista sekä soveltaa derivaatan ja integraalin laskumenetelmiä.',
       category: 'Matematiikka ja fysiikka',
       relevantPrograms: ['matematiikkaSysteemitieteet', 'teknillinenFysiikka']
   },
   {
       id: 'mat3',
       title: 'Differentiaali- ja integraalilaskenta 2',
-      description: 'Syvennyt integraalien ja derivaattojen sovelluksiin kuten optimointiin, approksimointiin ja avaruusintegraaleihin',
+      description: 'Syvennyt integraalien ja derivaattojen sovelluksiin kuten optimointiin, approksimointiin ja avaruusintegraaleihin.',
       category: 'Matematiikka ja fysiikka',
       relevantPrograms: ['matematiikkaSysteemitieteet', 'teknillinenFysiikka']
   },
@@ -243,5 +257,5 @@ export const studyProgramList = [
       }
       categories[course.category].push(course);
     });
-    return categories;
+    return categories; 
   };
