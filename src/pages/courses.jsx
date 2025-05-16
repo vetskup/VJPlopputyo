@@ -4,7 +4,7 @@ import Navbar from "../components/navbar"
 import CourseCard from "../components/coursecard"
 import { getCoursesByCategory, courses } from "../data/courseData.js";
 import '../styles/courses.css';
-
+import * as motion from "motion/react-client"
 
 
 function Courses () {
@@ -51,11 +51,14 @@ function Courses () {
                         </div>
                     ))}
 
-                    <button 
+                    <motion.button
+                        
+                        animate={{ scale: [1, 1.1, 1] }}
+                        transition={{ duration: 2, repeat: Infinity }}
                         onClick={handleCalculateSuitability} 
                     >
                         Laske sopivuus ohjelmiin
-                    </button>
+                    </motion.button>
                     
                 </div>
             </div>  
