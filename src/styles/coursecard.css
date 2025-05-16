@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-
+    color:Red;
     width: 100%;
 
     padding: 16px;
@@ -74,4 +74,26 @@ text-align: left
   .course-description {
     font-size: 1.5rem;
   }
+}
+
+@media (max-width: 600px){
+
+.courses-list{
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.course-card{
+    margin-left: 0;
+}
+
+
+
+
+
+
+
+
 }
