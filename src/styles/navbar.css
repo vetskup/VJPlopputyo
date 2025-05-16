@@ -9,6 +9,7 @@
     background-color: #fff257;
     padding: 16px 24px;
     border-bottom: 2px solid #e0e0e0;
+    box-sizing: border-box;
   }
   
   .navbar-left {
@@ -16,7 +17,7 @@
     font-weight: bold;
   }
   
-  .navbar-right {
+  .navbar-right{
     display: flex;
     gap: 24px;
   }
@@ -31,3 +32,14 @@
   .nav-link:hover {
     text-decoration: underline;
   }
+
+
+  @media (min-width: 2000px) {
+      
+  .navbar-left {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  .navbar-right a {
+    font-size: 32px;
+  }}
