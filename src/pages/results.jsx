@@ -40,32 +40,26 @@ function Results() {
     <>
       <Navbar />
       <div className="results-container">
-        <h2>Sopivuusarviosi opinto-ohjelmiin</h2>
+        <h2>Sinulle sopivimmat koulutusohjelmat</h2>
         {selectedCourseIds.size === 0 ? (
           <p>Et valinnut yhtään kurssia. <Link to="/courses">Palaa valitsemaan kursseja</Link>.</p>
         ) : (
           <ul className="results-list">
             {suitabilityResults.map(program => (
               <li key={program.id} className="result-item">
-                <h3>{program.name}: {program.score}%</h3>
-                <p>
-                  Valitsemistasi {selectedCourseIds.size} kurssista {program.matchedCourses} kpl 
-                  liittyy tähän ohjelmaan.
-                </p>
-                <div className="score-bar-container">
-                  <div 
-                    className="score-bar" 
-                    style={{ 
-                      width: `${program.score}%`, 
-                      backgroundColor: program.score > 66 ? '#4CAF50' : program.score > 33 ? '#FFC107' : '#F44336' 
-                    }}
-                  >
-                    {/* {program.score}% sopivuusarvio barissa, jos mahtuu */}
-                  </div>
+
+      
+                <h4>{program.score}%</h4>
+
+                <div className='program-description-container'>
+                  <h3>{program.name}</h3>
+                  <p className="program-description">
+                    {program.description}
+                  </p>
+        
                 </div>
-                <p className="program-description">
-                  {program.description}
-                </p>
+
+                
                 <div className="program-links">
                   <a href={program.lisätietoa} target="_blank" rel="noopener noreferrer">Lisätietoja</a>
                   <a href={program.kaikkiKurssit} target="_blank" rel="noopener noreferrer">Kaikki kurssit</a>
