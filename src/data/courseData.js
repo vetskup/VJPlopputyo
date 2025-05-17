@@ -1,7 +1,7 @@
 export const studyProgramList = [
     { id: 'teknillinenPsykologia', 
       name: 'Teknillinen psykologia', 
-      description: "Teknillisen psykologian opinnot yhdistävät ainutlaatuisella tavalla ihmistieteitä ja tekniikkaa, keskittyen siihen, miten ihminen toimii vuorovaikutuksessa teknologian, järjestelmien ja ympäristön kanssa. Opinnoissa korostuu poikkitieteisyys ja käytännön sovellettavuus, ja opiskelijalle avautuu mahdollisuus rakentaa täysin omanlainen polku painottuen esimerkiksi tietotekniikkaan, neurotieteisiin tai laiteiden suunnitteluun.",
+      description: "Teknillisen psykologian opinnot yhdistävät ainutlaatuisella tavalla ihmistieteet ja tekniikan, keskittyen siihen, miten ihminen toimii vuorovaikutuksessa teknologian, järjestelmien ja ympäristön kanssa. Opinnoissa korostuvat poikkitieteisyys ja käytännön sovellettavuus, ja opiskelijalle avautuu mahdollisuus rakentaa täysin omanlaisensa opintopolku. Kandidaatin tutkinnon jälkeen opintoja voi jatkaa maisterivaiheessa muun muassa neurotieteiden tai tietotekniikan aloilla.  ",
       lisätietoa: "https://www.aalto.fi/fi/koulutustarjonta/teknillinen-psykologia-tekniikan-kandidaatti-ja-diplomi-insinoori",
       kaikkiKurssit: "https://www.aalto.fi/fi/ohjelmat/teknistieteellinen-kandidaattiohjelma/opetussuunnitelma-2024-2026#24-teknillinen-psykologia",
       opintopolku: "https://opintopolku.fi/konfo/fi/hakukohde/1.2.246.562.20.00000000000000056128/valintaperuste"
@@ -174,7 +174,7 @@ export const studyProgramList = [
   {
       id: 'info4',
       title: 'Human-Computer Interaction',
-      description: 'Opit, miten ihmisen ja tietokoneiden vuorovaoikutus 		toimii ja miten suunnitella käyttöliittymiä, joita on 			mukava käyttää.',
+      description: 'Opit, miten ihmisen ja tietokoneiden välinen vuorovaikutus toimii ja kuinka suunnitella käyttöliittymiä, joita on mukava käyttää.',
       category: 'Ihminen ja vuorovaikutus',
       relevantPrograms: ['informaatioverkostot', 'teknillinenPsykologia', 	'tietotekniikka']
   },

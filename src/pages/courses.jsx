@@ -34,10 +34,14 @@ function Courses () {
             <div>
                 <Navbar />
                 <div className="courses-list">
-                    <h2>Valitse sinua kiinnostavat kurssit</h2>
+                    <h2
+                        style={{textAlign: 'center'}}
+                    >Valitse sinua kiinnostavat kurssit</h2>
                     {Object.entries(coursesByCategory).map(([category, coursesInCategory]) => (
                         <div className="courses-category" key={category}>
-                            <h3>{category}</h3>
+                            <h3
+                                style={{textAlign:'center'}}
+                            >{category}</h3>
                             {coursesInCategory.map(course => (
                             <CourseCard                
                                 key={course.id}
