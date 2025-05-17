@@ -1,8 +1,8 @@
-## Verkkosivun osoite
+# Verkkosivun osoite
 
 https://vjplopputyo.vercel.app/courses
 
-## Tehtävät ja työtunnit
+# Tehtävät ja työtunnit
 
 Emil Laaksonen 10 h
 - Sivuston suunnittelu Figmassa
@@ -16,18 +16,24 @@ Tapio Tuloisela x h
 Veeti Pellinen x h
 
 
-## Kuvaus siitä, miten hommat tehtiin
+## Mitä opitte git yhteistyöstä ja yhdessä projektin tekemisestä? Mitä haasteita yhteistyö gitissä mahdollisesti aiheutti?
+
+## Millaista työnjaon tekeminen oli? Oliko helppoa jakaa työ tehtäviin palasiin ryhmäläisten kesken?
 
 Ensimmäisessä tapaamisessa sovitiin perusasioita ja sivuston toimintaa. Emil teki 
 alustavan figman ja sen jälkeen Veetin alustamalle projektille ra'an version nettisivuista, jossa oli vain kurssit näkyvillä. Tämän jälkeen Tapio otti vastuuta 
 lokiikan koodaamisesta samalla, kun Emil ja Veeti etsi kurssien ja tutkintjen tiedot
 netistä.
 
+## Mitä uutta opitte UI-suunnittelusta viestinnän keinona?
+
+## Jos hyödynsitte tehtävän teossa tekoälyä, millä tavalla?
+
 ## Figma
 
 https://www.figma.com/design/fOEnVOAj4xmxYVJxaAjuPP/VJP-lopputy%C3%B6?node-id=0-1&t=faltgK9fpWBhOeSg-1
 
-# React + Vite
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
