@@ -29,20 +29,23 @@ export const studyProgramList = [
     },
     { id: 'matematiikkaSysteemitieteet', 
       name: 'Matematiikka ja systeemitieteet',
-      description: "Teknillisen fysiikan opinnoissa tutustut luonnonilmiöihin matematiikan ja fysiikan avulla – kuten siihen, miten energia, valo ja aine käyttäytyvät. Opit ymmärtämään ja mallintamaan esimerkiksi kvanttifysiikkaa, sähkömagneettisia kenttiä ja lämpöilmiöitä. Ala sopii sinulle, jos haluat ymmärtää maailmaa pintaa syvemmältä ja kenties tehdä tulevaisuudessa uraauurtavaa tutkimusta tai kehittää uutta teknologiaa. Opinnot antavat vahvan pohjan esimerkiksi tutkijaksi, tuotekehittäjäksi tai asiantuntijaksi.",
+      description: "Matematiikan ja systeemitieteiden opinnoissa opit mallintamaan, ennustamaan ja ratkaisemaan monimutkaisia ilmiöitä matemaattisin keinoin – aina liikenteen ohjauksesta tekoälyyn ja säätöjärjestelmiin asti. Voit suuntautua esimerkiksi sovellettuun matematiikkaan, optimointiin tai data-analyysiin. Ala sopii sinulle, jos nautit ongelmanratkaisusta ja haluat oppia käyttämään matikkaa konkreettisiin, yhteiskunnassa tärkeisiin asioihin.",
       lisätietoa: "https://www.aalto.fi/fi/koulutustarjonta/teknillinen-fysiikka-ja-matematiikka-tekniikan-kandidaatti-ja-diplomi-insinoori",
       kaikkiKurssit: "https://www.aalto.fi/fi/ohjelmat/teknistieteellinen-kandidaattiohjelma/opetussuunnitelma-2024-2026#10-matematiikka-ja-systeemitieteet",
       opintopolku: "https://opintopolku.fi/konfo/fi/hakukohde/1.2.246.562.20.00000000000000056126/valintaperuste"
     },
     { id: 'teknillinenFysiikka', 
       name: 'Teknillinen fysiikka',
-      description: "Matematiikan ja systeemitieteiden opinnoissa opit mallintamaan, ennustamaan ja ratkaisemaan monimutkaisia ilmiöitä matemaattisin keinoin – aina liikenteen ohjauksesta tekoälyyn ja säätöjärjestelmiin asti. Voit suuntautua esimerkiksi sovellettuun matematiikkaan, optimointiin tai data-analyysiin. Ala sopii sinulle, jos nautit ongelmanratkaisusta ja haluat oppia käyttämään matikkaa konkreettisiin, yhteiskunnassa tärkeisiin asioihin.",
+      description: "Teknillisen fysiikan opinnoissa tutustut luonnonilmiöihin matematiikan ja fysiikan avulla – kuten siihen, miten energia, valo ja aine käyttäytyvät. Opit ymmärtämään ja mallintamaan esimerkiksi kvanttifysiikkaa, sähkömagneettisia kenttiä ja lämpöilmiöitä. Ala sopii sinulle, jos haluat ymmärtää maailmaa pintaa syvemmältä ja kenties tehdä tulevaisuudessa uraauurtavaa tutkimusta tai kehittää uutta teknologiaa. Opinnot antavat vahvan pohjan esimerkiksi tutkijaksi, tuotekehittäjäksi tai asiantuntijaksi.",
       lisätietoa: "https://www.aalto.fi/fi/koulutustarjonta/teknillinen-fysiikka-ja-matematiikka-tekniikan-kandidaatti-ja-diplomi-insinoori",
       kaikkiKurssit: "https://www.aalto.fi/fi/ohjelmat/teknistieteellinen-kandidaattiohjelma/opetussuunnitelma-2024-2026#17-teknillinen-fysiikka",
       opintopolku: "https://opintopolku.fi/konfo/fi/hakukohde/1.2.246.562.20.00000000000000056126/valintaperuste"
     },
   ];
   
+
+  
+
   export const courses = [
     // Talous ja yhteiskunta
    {
