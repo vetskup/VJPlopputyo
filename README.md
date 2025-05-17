@@ -23,6 +23,9 @@ alustavan figman ja sen jälkeen Veetin alustamalle projektille ra'an version ne
 lokiikan koodaamisesta samalla, kun Emil ja Veeti etsi kurssien ja tutkintjen tiedot
 netistä.
 
+## Figma
+
+https://www.figma.com/design/fOEnVOAj4xmxYVJxaAjuPP/VJP-lopputy%C3%B6?node-id=0-1&t=faltgK9fpWBhOeSg-1
 
 # React + Vite
 
