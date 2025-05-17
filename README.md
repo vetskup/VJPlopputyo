@@ -13,8 +13,11 @@ Emil Laaksonen 10 h
 Tapio Tuloisela x h
 
 
-Veeti Pellinen x h
-
+Veeti Pellinen 8 h
+- Kurssikuvauksien lisääminen sivustolle
+- Sivuston responsiivisuus välillä 320px - 4096px 
+- Muuta pienitä UI:n korjaamista 
+- Animaation lisääminen Motion-kirjaston avulla
 
 ## Mitä opitte git yhteistyöstä ja yhdessä projektin tekemisestä? Mitä haasteita yhteistyö gitissä mahdollisesti aiheutti?
 
@@ -22,12 +25,17 @@ Veeti Pellinen x h
 
 Ensimmäisessä tapaamisessa sovitiin perusasioita ja sivuston toimintaa. Emil teki 
 alustavan figman ja sen jälkeen Veetin alustamalle projektille ra'an version nettisivuista, jossa oli vain kurssit näkyvillä. Tämän jälkeen Tapio otti vastuuta 
-lokiikan koodaamisesta samalla, kun Emil ja Veeti etsi kurssien ja tutkintjen tiedot
-netistä.
+logiikan koodaamisesta samalla, kun Emil ja Veeti etsi kurssien ja tutkintjen tiedot
+netistä. Veeti ja emil jatkoi käyttöliittymän korjailua. Kursseja myös lisättiin sivustolle omaa tahtia.
 
 ## Mitä uutta opitte UI-suunnittelusta viestinnän keinona?
+- Animaatioilla mahdollista ohjata käyttäjää sivustolla
+- Elementtien säännöllisyys/kategorisointi sivustolla - tulimme siihen tulokseen, että kurssit on parempi esittää ryhmitettynä (ei kuitenkaan tutkinnoittain vaan teemoittain), ettei aihealueet pompi ns. edestakaisin.
 
 ## Jos hyödynsitte tehtävän teossa tekoälyä, millä tavalla?
+
+- Virheiden etsiminen: kun esim. teksti ei linjautunut oikein muiden elementtien kanssa eikä itse löytänyt ratkaisua, tekoäly auttoi paikantamaan virheen. 
+
 
 ## Figma
 
