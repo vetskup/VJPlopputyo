@@ -9,9 +9,7 @@ function Navbar() {
     <div className="navbar-left">A?</div>
     <div className="navbar-right">
 
-     <Link className="nav-link" to="/courses">Kurssit</Link>
-     <Link className="nav-link" to="/programs">Ohjelmat</Link>
-
+     <Link className="nav-link" to="/courses">Opintolinja-apuri</Link>
     </div>
     </nav>
   );
