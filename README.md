@@ -1,3 +1,29 @@
+## Verkkosivun osoite
+
+https://vjplopputyo.vercel.app/courses
+
+## Tehtävät ja työtunnit
+
+Emil Laaksonen 10 h
+- Sivuston suunnittelu Figmassa
+- Kurssien ja tutkintojen tietojen kerääminen netistä
+- Kurssisivun alustava koodaus
+- Tulossivun UI:n koodaus ja responsiivisuus
+
+Tapio Tuloisela x h
+
+
+Veeti Pellinen x h
+
+
+## Kuvaus siitä, miten hommat tehtiin
+
+Ensimmäisessä tapaamisessa sovitiin perusasioita ja sivuston toimintaa. Emil teki 
+alustavan figman ja sen jälkeen Veetin alustamalle projektille ra'an version nettisivuista, jossa oli vain kurssit näkyvillä. Tämän jälkeen Tapio otti vastuuta 
+lokiikan koodaamisesta samalla, kun Emil ja Veeti etsi kurssien ja tutkintjen tiedot
+netistä.
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
