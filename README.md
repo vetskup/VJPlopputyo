@@ -21,12 +21,15 @@ Veeti Pellinen 8 h
 
 ## Mitä opitte git yhteistyöstä ja yhdessä projektin tekemisestä? Mitä haasteita yhteistyö gitissä mahdollisesti aiheutti?
 
+Opimme, että on hyvä tehdä suunnitelma ja työnjako siitä, mitä kukakin tekee ja ymmrätää mitkä kehitettävät
+asiat ovat sidoksissa toisiinsa, eli missä järjestyksessä asioita pitää tehdä.
+
 ## Millaista työnjaon tekeminen oli? Oliko helppoa jakaa työ tehtäviin palasiin ryhmäläisten kesken?
 
 Ensimmäisessä tapaamisessa sovitiin perusasioita ja sivuston toimintaa. Emil teki 
 alustavan figman ja sen jälkeen Veetin alustamalle projektille ra'an version nettisivuista, jossa oli vain kurssit näkyvillä. Tämän jälkeen Tapio otti vastuuta 
 logiikan koodaamisesta samalla, kun Emil ja Veeti etsi kurssien ja tutkintjen tiedot
-netistä. Veeti ja emil jatkoi käyttöliittymän korjailua. Kursseja myös lisättiin sivustolle omaa tahtia.
+netistä. Veeti ja Emil jatkoi käyttöliittymän korjailua. Kursseja myös lisättiin sivustolle omaa tahtia.
 
 ## Mitä uutta opitte UI-suunnittelusta viestinnän keinona?
 - Animaatioilla mahdollista ohjata käyttäjää sivustolla
@@ -35,6 +38,8 @@ netistä. Veeti ja emil jatkoi käyttöliittymän korjailua. Kursseja myös lis�
 ## Jos hyödynsitte tehtävän teossa tekoälyä, millä tavalla?
 
 - Virheiden etsiminen: kun esim. teksti ei linjautunut oikein muiden elementtien kanssa eikä itse löytänyt ratkaisua, tekoäly auttoi paikantamaan virheen. 
+- CSS:n koodaaminen: esimerkiksi kysyttiin, mite saan tehtytä tietynlaisen tyylin
+- Logiikan koodaamisessa: Selistettiin tekoälylle, miten halutaan logiikan toimivan. Tämän jälkeen piti ymmärtää, mitä koodi tekee, jotta sen jatkokehitys on mahdollista.
 
 
 ## Figma
