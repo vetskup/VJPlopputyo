@@ -69,7 +69,8 @@ text-align: left
 
   .course-title {
     font-size: 1.7rem;
-    font-weight: 3000;
+    font-weight: 600;
+    
   }
 
   .course-description {
