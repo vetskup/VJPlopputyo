@@ -19,6 +19,8 @@ Veeti Pellinen 8 h
 - Muuta pienitä UI:n korjaamista 
 - Animaation lisääminen Motion-kirjaston avulla
 
+Lisäksi pidimme kaksi noin puolentoista tunnin yhteistä tapaamista.
+
 ## Mitä opitte git yhteistyöstä ja yhdessä projektin tekemisestä? Mitä haasteita yhteistyö gitissä mahdollisesti aiheutti?
 
 Opimme, että on hyvä tehdä suunnitelma ja työnjako siitä, mitä kukakin tekee ja ymmrätää mitkä kehitettävät
