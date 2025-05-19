@@ -34,10 +34,7 @@ Jotkin työalueet ovat vahvasti sidoksissa toisiinsa, kun taas toiset muistuttav
 
 ## Millaista työnjaon tekeminen oli? Oliko helppoa jakaa työ tehtäviin palasiin ryhmäläisten kesken?
 
-Ensimmäisessä tapaamisessa sovitiin perusasioita ja sivuston toimintaa. Emil teki 
-alustavan figman ja sen jälkeen Veetin alustamalle projektille ra'an version nettisivuista, jossa oli vain kurssit näkyvillä. Tämän jälkeen Tapio otti vastuuta 
-logiikan koodaamisesta samalla, kun Emil ja Veeti etsi kurssien ja tutkintjen tiedot
-netistä. Veeti ja Emil jatkoi käyttöliittymän korjailua. Kursseja myös lisättiin sivustolle omaa tahtia.
+Ensimmäisessä tapaamisessa sovitiin perusasioita ja sivuston toimintaa. Emil teki  alustavan figman, minkä jälkeen Veetin alustamalle projektille luotiin alustava versio nettisivuista, jossa oli vain kurssit ilman sen kummempia toiminnallisuuksia näkyvillä. Tämän jälkeen Tapio otti vastuuta logiikan koodaamisesta ja kurssien, sekä tutkintjen kuvausten integroimisesta sivustolle. Samalla Emil ja Veeti hakivat kurssien sekä tutkintojen tietoja netistä ja jatkoivat käyttöliittymän korjailua. Kursseja ja niiden tietoja lisättiin sivustolle omaa tahtia.
 
 ## Mitä uutta opitte UI-suunnittelusta viestinnän keinona?
 - Animaatioilla mahdollista ohjata käyttäjää sivustolla
@@ -46,8 +43,9 @@ netistä. Veeti ja Emil jatkoi käyttöliittymän korjailua. Kursseja myös lis�
 ## Jos hyödynsitte tehtävän teossa tekoälyä, millä tavalla?
 
 - Virheiden etsiminen: kun esim. teksti ei linjautunut oikein muiden elementtien kanssa eikä itse löytänyt ratkaisua, tekoäly auttoi paikantamaan virheen. 
-- CSS:n koodaaminen: esimerkiksi kysyttiin, mite saan tehtytä tietynlaisen tyylin
-- Logiikan koodaamisessa: Selistettiin tekoälylle, miten halutaan logiikan toimivan. Tämän jälkeen piti ymmärtää, mitä koodi tekee, jotta sen jatkokehitys on mahdollista.
+- CSS:n koodaaminen: esimerkiksi kysyttiin, mite saan tehtyä tietynlaisen tyylin
+- Logiikan koodaamisessa: Selostettiin tekoälylle, miten halutaan logiikan toimivan. Tämän jälkeen tekoäly antoi alustavia malleja sivuston toimintaperiaatteista. 
+- Läpi prosessin tekoälyä käytettäessä oli olennaista ymmärtää, mitä tekoäly suositteli, jotta koodin jatkokehitys oli mahdollista haluamaamme suuntaan.
 
 
 ## Figma
