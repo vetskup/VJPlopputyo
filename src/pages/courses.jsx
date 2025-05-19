@@ -58,7 +58,6 @@ function Courses () {
                     <motion.button
                         className="results-button"
                         whileHover={{ scale: 1.1 }}
-                        whileTap={{ scale: 0.5 }}
                         onClick={handleCalculateSuitability} 
                     >
                         Laske sopivuus ohjelmiin
