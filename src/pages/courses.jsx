@@ -56,9 +56,9 @@ function Courses () {
                     ))}
 
                     <motion.button
-                        
-                        animate={{ scale: [1, 1.1, 1] }}
-                        transition={{ duration: 2, repeat: Infinity }}
+                        className="results-button"
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.5 }}
                         onClick={handleCalculateSuitability} 
                     >
                         Laske sopivuus ohjelmiin
