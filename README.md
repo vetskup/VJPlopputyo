@@ -2,6 +2,8 @@
 
 https://vjplopputyo.vercel.app/courses
 
+Github: https://github.com/vetskup/VJPlopputyo
+
 # Tehtävät ja työtunnit
 
 Emil Laaksonen 10 h
