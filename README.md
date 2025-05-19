@@ -2,6 +2,8 @@
 
 https://vjplopputyo.vercel.app/courses
 
+Github: https://github.com/vetskup/VJPlopputyo
+
 # Tehtävät ja työtunnit
 
 Emil Laaksonen 10 h
@@ -22,6 +24,8 @@ Veeti Pellinen 8 h
 - Sivuston responsiivisuus välillä 320px - 4096px 
 - Muuta pienitä UI:n korjaamista 
 - Animaation lisääminen Motion-kirjaston avulla
+
+Lisäksi pidimme kaksi noin puolentoista tunnin yhteistä tapaamista.
 
 ## Mitä opitte git yhteistyöstä ja yhdessä projektin tekemisestä? Mitä haasteita yhteistyö gitissä mahdollisesti aiheutti?
 
