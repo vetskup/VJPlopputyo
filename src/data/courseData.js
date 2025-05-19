@@ -121,25 +121,11 @@ export const studyProgramList = [
     relevantPrograms: ['tietotekniikka', 'teknillinenPsykologia']
   },
   {
-    id: 'tkt1001',
-    title: 'Tietokonejärjestelmät',
-    description: 'Tietokoneen toiminnan perusteet laitteiston ja ohjelmiston tasolla.',
-    category: 'Ohjelmointi, tietojärjestelmät ja internet',
-    relevantPrograms: ['tietotekniikka']
-  },
-  {
     id: 'info2',
     title: 'Verkkojulkaisemisen perusteet',
     description: 'Opit koodaamaan hienoja ja käytettäviä nettisivuja ja lisäksi kurssilla koodataan omat portfoliosivut',
     category: 'Ohjelmointi, tietojärjestelmät ja internet',
     relevantPrograms: ['informaatioverkostot']
-  },
-  {
-    id: 'tkt2001',
-    title: 'Tietoliikenteen perusteet',
-    description: 'Verkkojen toiminta ja protokollat.',
-    category: 'Ohjelmointi, tietojärjestelmät ja internet',
-    relevantPrograms: ['tietotekniikka', 'informaatioverkostot']
   },
 
   // Ihminen ja vuorovaikutus
@@ -173,7 +159,7 @@ export const studyProgramList = [
   },
   {
       id: 'info4',
-      title: 'Human-Computer Interaction',
+      title: 'Ihmisen ja tietokoneen välinen vuorovaikutus',
       description: 'Opit, miten ihmisen ja tietokoneiden välinen vuorovaikutus toimii ja kuinka suunnitella käyttöliittymiä, joita on mukava käyttää.',
       category: 'Ihminen ja vuorovaikutus',
       relevantPrograms: ['informaatioverkostot', 'teknillinenPsykologia', 	'tietotekniikka']
