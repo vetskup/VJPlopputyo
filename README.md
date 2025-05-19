@@ -29,12 +29,13 @@ Lisäksi pidimme kaksi noin puolentoista tunnin yhteistä tapaamista.
 
 ## Mitä opitte git yhteistyöstä ja yhdessä projektin tekemisestä? Mitä haasteita yhteistyö gitissä mahdollisesti aiheutti?
 
-Opimme, että on työn tehokkuuden parantamiseksi on erittäin kannattavaa tehdä selkeä suunnitelma ja työnjako siitä, mitä kukakin tekee projetkin eri vaiheissa.
-Jotkin työalueet ovat vahvasti sidoksissa toisiinsa, kun taas toiset muistuttavat enemmän itsenäisiä komponentteja. Alueiden koordinointi ryhmän kesken on tärkeää, jotta projekti etenee.
+Opimme, että on työn tehokkuuden parantamiseksi on erittäin kannattavaa tehdä selkeä suunnitelma ja työnjako siitä, mitä kukakin tekee projetkin eri vaiheissa. 
+Jotkin työalueet ovat vahvasti sidoksissa toisiinsa, kun taas toiset muistuttavat enemmän itsenäisiä komponentteja. Alueiden koordinointi ryhmän kesken on tärkeää, jotta projekti etenee. 
+Githubin käyttö ei ollut meille kenellekään ennestään rutiininomaista ja toisinaan merge conflictit aiheuttivat hankaluuksia. Niistä kuitenkin selvittiin ja projekti opetti kokonaisuudessaan erinomaisesti github-ympäristön yhteistyökäyttöä.
 
 ## Millaista työnjaon tekeminen oli? Oliko helppoa jakaa työ tehtäviin palasiin ryhmäläisten kesken?
 
-Ensimmäisessä tapaamisessa sovitiin perusasioita ja sivuston toimintaa. Emil teki  alustavan figman, minkä jälkeen Veetin alustamalle projektille luotiin alustava versio nettisivuista, jossa oli vain kurssit ilman sen kummempia toiminnallisuuksia näkyvillä. Tämän jälkeen Tapio otti vastuuta logiikan koodaamisesta ja kurssien, sekä tutkintjen kuvausten integroimisesta sivustolle. Samalla Emil ja Veeti hakivat kurssien sekä tutkintojen tietoja netistä ja jatkoivat käyttöliittymän korjailua. Kursseja ja niiden tietoja lisättiin sivustolle omaa tahtia.
+Ensimmäisessä tapaamisessa sovitiin perusasioita ja sivuston toimintaa. Emil suunnitteli figmapohjan, minkä jälkeen luotiin alustava versio nettisivuista, jossa oli näkyvillä vain kurssit ilman sen kummempia toiminnallisuuksia. Tämän jälkeen Tapio otti vastuuta logiikan koodaamisesta sekä kurssien ja tutkintjen kuvausten integroimisesta sivustolle. Samalla Emil ja Veeti hakivat kurssien sekä tutkintojen tietoja netistä ja jatkoivat käyttöliittymän korjailua. Kursseja ja niiden tietoja lisättiin sivustolle omaa tahtia. 
 
 ## Mitä uutta opitte UI-suunnittelusta viestinnän keinona?
 - Animaatioilla mahdollista ohjata käyttäjää sivustolla
