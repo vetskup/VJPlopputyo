@@ -19,10 +19,10 @@ Tapio Tuloisela 10 h
 - Käyttöliittymän korjailua
 
 
-Veeti Pellinen 8 h
+Veeti Pellinen 10 h
 - Kurssikuvauksien lisääminen sivustolle
 - Sivuston responsiivisuus välillä 320px - 4096px 
-- Muuta pienitä UI:n korjaamista 
+- Muuta pientä UI:n korjaamista 
 - Animaation lisääminen Motion-kirjaston avulla
 
 Lisäksi pidimme kaksi noin puolentoista tunnin yhteistä tapaamista.
