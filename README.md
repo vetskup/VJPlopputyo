@@ -10,7 +10,11 @@ Emil Laaksonen 10 h
 - Kurssisivun alustava koodaus
 - Tulossivun UI:n koodaus ja responsiivisuus
 
-Tapio Tuloisela x h
+Tapio Tuloisela 10 h
+- Kurssien lisääminen ja formatointi sivustolle
+- Kurssien kategorisointi
+- Sivuston logiikka ja tietojen käsittely kurssisivulta results-sivulle
+- Käyttöliittymän korjailua
 
 
 Veeti Pellinen 8 h
@@ -21,8 +25,8 @@ Veeti Pellinen 8 h
 
 ## Mitä opitte git yhteistyöstä ja yhdessä projektin tekemisestä? Mitä haasteita yhteistyö gitissä mahdollisesti aiheutti?
 
-Opimme, että on hyvä tehdä suunnitelma ja työnjako siitä, mitä kukakin tekee ja ymmrätää mitkä kehitettävät
-asiat ovat sidoksissa toisiinsa, eli missä järjestyksessä asioita pitää tehdä.
+Opimme, että on työn tehokkuuden parantamiseksi on erittäin kannattavaa tehdä selkeä suunnitelma ja työnjako siitä, mitä kukakin tekee projetkin eri vaiheissa.
+Jotkin työalueet ovat vahvasti sidoksissa toisiinsa, kun taas toiset muistuttavat enemmän itsenäisiä komponentteja. Alueiden koordinointi ryhmän kesken on tärkeää, jotta projekti etenee.
 
 ## Millaista työnjaon tekeminen oli? Oliko helppoa jakaa työ tehtäviin palasiin ryhmäläisten kesken?
 
