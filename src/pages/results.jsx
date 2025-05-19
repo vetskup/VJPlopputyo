@@ -49,7 +49,12 @@ function Results() {
               <li key={program.id} className="result-item">
 
       
-                <h4>{program.score}%</h4>
+                <div className="result-color-circle"
+                  style={{ 
+                    backgroundColor: program.score > 66 ? '#6abe6d' : program.score > 33 ? '#ffd147' : '#f6655b' 
+                  }}>
+                  <h4>{program.score}%</h4>
+                </div>
 
                 <div className='program-description-container'>
                   <h3>{program.name}</h3>
